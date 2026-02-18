@@ -1,6 +1,6 @@
-# 🏥 Healthcare Database Design & Implementation (PostgreSQL)
+# Healthcare Database Design & Implementation (PostgreSQL)
 
-## 📌 Project Overview
+## Project Overview
 This project demonstrates a **complete relational database design and implementation** for managing healthcare patient records using PostgreSQL.  
 
 The objective was to develop a **scalable, secure, and optimized database solution** capable of handling **large volumes of structured medical data (100,000+ records)** while enabling efficient querying, analysis, and reporting.
@@ -15,7 +15,7 @@ The project showcases:
 
 ---
 
-## 🎯 Business Problem
+## Business Problem
 Healthcare organizations handle extensive patient information including:
 
 - Demographics  
@@ -35,7 +35,7 @@ Challenges without a centralized database:
 
 ---
 
-## 🗄 Dataset Description
+## Dataset Description
 - Dataset: `D597 Task 1 Dataset 3_medical_records.csv`  
 - Number of records: 100,000+ (sample available in repo)  
 - Main table: `medical_records`  
@@ -55,7 +55,7 @@ Challenges without a centralized database:
 
 ---
 
-## ⚙️ Implementation Details
+## Implementation Details
 ### 1️⃣ Database Creation
 - Database instance: `D597_Task_1`  
 - Table schema with proper **constraints** and **data types**  
@@ -92,7 +92,7 @@ Query execution screenshots are included in:
 
 ---
 
-## 📊 Scalability Strategy
+## Scalability Strategy
 - Handles **100,000+ records** efficiently  
 - Designed for **future normalization** and multi-table relationships  
 - Vertical and horizontal scaling supported by PostgreSQL  
